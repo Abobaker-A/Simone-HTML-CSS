@@ -187,7 +187,7 @@ h1::after{
 }
 .links{
     width: 60%;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 .Navli a {
     color: white; 
@@ -237,19 +237,20 @@ color: rgba(148, 137, 137, 0.3);
     right: 0;
     left: 0;
     top: 38%;
-    bottom: 0;
     text-align: center;
     font-weight: 600 ;
     font-size: 2.25rem ;
 }
-.title h2::after{
+.title h3::after{
     content: "";
     height: 3px;
     width: 100px;
     background-color: #20C997;
     position: absolute;
-    top: 70%;
-    left: 40%;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 .sec2{
     display: flex;
@@ -344,39 +345,7 @@ h4 span {
     font-weight: 400;
 
 }
-.title2{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-.title2 h2 {
-    position: relative;
-    font-size: 8.25rem ;
-    font-weight: 600 ;
-    text-align: center;
-    color: rgba(148, 137, 137, 0.3);
-    }
-.title2 h3{
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 38%;
-        bottom: 0;
-        text-align: center;
-        font-weight: 600 ;
-        font-size: 2.25rem ;
-    }
-.title2 h2::after{
-        content: "";
-        height: 3px;
-        width: 100px;
-        background-color: #20C997;
-        position: absolute;
-        top: 70%;
-        left: 40%;
-    }
 .what{
     padding: 50px;
     background-color: #F8F9FA;
@@ -425,40 +394,8 @@ h4 span {
     width: 90%;
     margin: auto;
 }
-.title3{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
 
-}
-.title3 h2 {
-    position: relative;
-    font-size: 8.25rem ;
-    font-weight: 600 ;
-    text-align: center;
-    color: rgba(148, 137, 137, 0.3);
-    }
-.title3 h3{
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 38%;
-        bottom: 0;
-        text-align: center;
-        font-weight: 600 ;
-        font-size: 2.25rem ;
-    }
-.title3 h2::after{
-        content: "";
-        height: 3px;
-        width: 150px;
-        background-color: #20C997;
-        position: absolute;
-        top: 70%;
-        left: 40%;
-    }
+
     
 .Resume{
     margin-top: 50px;
@@ -754,7 +691,7 @@ justify-content: center;
 
 }
 .twoo{
-    z-left: 50px;
+    padding-left: 50px;
 }
 .infowork{
     padding-left: 20px;
@@ -773,7 +710,7 @@ justify-content: center;
 .star{
     padding-top: 30px;
     line-height: 1.8;
-    width: 600;
+    max-width: 600;
     font-size: 1rem;
 }
 .star i {
@@ -888,8 +825,9 @@ justify-content: center;
 
 .copyr{
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
-    padding: 50px;
+    padding: 50px 0px;
 
 
 }

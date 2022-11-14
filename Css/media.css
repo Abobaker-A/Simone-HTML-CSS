@@ -6,12 +6,37 @@
 .devo , .name , .item  , .sectionone  , .pres , .phts , .chrev , .adress , .name1 , .copy , .terms {
     width: 100%;
 }
-.num , .  { 
+.num  { 
     width: 50%;
 }
+.title h2 {
+    position: relative;
+    font-size: 4.25rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 2.25rem;
 
+}
+.Navli{
+    display: flex;
+    flex-wrap: wrap
+}
+.Navli li{
+    text-align: center;
+    margin: 5px 10px;
     
 }
+.links{
+    width: 100% !important;
+    padding: 0;
+}
+.num:nth-child(2){
+    border: none;
+}
+    
+}
+
 @media screen and ( min-width : 601px ) and (max-width: 966px) {
    .sec2 , .number , .what2 , .twosec , .content , .parentph  , .review , .input , .copyr{
     display: flex;
@@ -23,7 +48,30 @@
 .num   { 
     width: 50%;
 }
+.title h2 {
+    position: relative;
+    font-size: 5.25rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 3.25rem;
 
-
+}
+.Navli{
+    display: flex;
+    flex-wrap: wrap
+}
+.Navli li{
+    text-align: center;
+    margin: 5px 10px;
+    
+}
+.links{
+    width: 100% !important;
+    padding: 0;
+}
+.num:nth-child(2){
+    border: none;
+}
 } 
 
