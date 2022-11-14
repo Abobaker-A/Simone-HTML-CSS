@@ -1,0 +1,29 @@
+@media screen and ( max-width : 600px )  {
+.sec2 , .number , .what2 , .twosec , .content , .parentph  , .review , .input , .copyr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.devo , .name , .item  , .sectionone  , .pres , .phts , .chrev , .adress , .name1 , .copy , .terms {
+    width: 100%;
+}
+.num , .  { 
+    width: 50%;
+}
+
+    
+}
+@media screen and ( min-width : 601px ) and (max-width: 966px) {
+   .sec2 , .number , .what2 , .twosec , .content , .parentph  , .review , .input , .copyr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.devo , .name , .item  , .sectionone  ,.phts , .pres  , .chrev , .adress , .name1 , .copy , .terms {
+    width: 100%;
+}
+.num   { 
+    width: 50%;
+}
+
+
+} 
+
